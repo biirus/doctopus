@@ -1,0 +1,26 @@
+{
+  "na": "N/A",
+  "draft": "Draft",
+  "source": "Source",
+  "gotoCMS": "Go to CMS",
+
+  "save": "Save",
+  "add": "Add",
+  "remove": "Remove",
+  "edit": "Edit",
+  "create": "Create",
+  "find": "Find",
+  "search": "Search",
+  "cancel": "Cancel",
+  "clearSearch": "Clear Search",
+  "close": "Close",
+
+  "optional": "Optional",
+
+  "errors": {
+    "notAuthorized": {
+      "headline": "Login required",
+      "subline": "Please sign-in to your account"
+    }
+  }
+}

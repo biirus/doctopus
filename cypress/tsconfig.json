@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "sourceMap": false,
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts", "component/ComponentName.cy.tsx"],
+  "exclude": []
+}

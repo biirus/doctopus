@@ -1,0 +1,147 @@
+{
+  "firstName": "First name",
+  "lastName": "Last name",
+  "middleName": "Patronymic",
+  "phone": "Phone",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm password",
+  "roles": {
+    "doctor": {
+      "headline": "Doctor",
+      "subline": "Adding patients, creating orders"
+    },
+    "registrator": {
+      "headline": "Registrator",
+      "subline": "Adding patients"
+    },
+    "manager": {
+      "headline": "Manager",
+      "subline": "Manage organizations, create user profiles"
+    }
+  },
+  "organizationTitle": "Organization",
+  "active": "Active",
+  "status": "Status",
+
+  "generalInfo": {
+    "headline": "General Information",
+    "subline": "User data"
+  },
+
+  "contactsInfo": {
+    "headline": "Contact Information",
+    "subline": "How can the user be contacted"
+  },
+
+  "signinInfo": {
+    "headline": "Authorization",
+    "subline": "Login Password"
+  },
+
+  "rolesInfo": {
+    "headline": "Roles in the system",
+    "subline": "User access levels"
+  },
+
+  "error": "Error",
+  "errors": {
+    "firstName": {
+      "required": "Fill in the field \"$t(firstName)\""
+    },
+    "lastName": {
+      "required": "Fill in the field \"$t(lastName)\""
+    },
+    "middleName": {
+      "required": "Fill in the field \"$t(middleName)\""
+    },
+    "password": {
+      "required": "Fill in the field \"$t(password)\"",
+      "minLength": "Field \"$t(password)\" must be at least 6 characters long"
+    },
+    "confirmPassword": {
+      "required": "Fill in the field \"$t(confirmPassword)\"",
+      "theSame": "Passwords don't match"
+    },
+    "email": {
+      "required": "Fill in the field \"$t(email)\"",
+      "email": "Invalid field format \"$t(email)\""
+    },
+    "phone": {
+      "required": "Fill in the field \"$t(phone)\"",
+      "phone": "Incorrect field \"$t(phone)\""
+    },
+    "roles": {
+      "required": "Select a role for the user"
+    },
+
+    "general": "Something went wrong, please try again later.",
+    "401": "Login required",
+    "409": "This email address is not available. Please select another email address."
+  },
+
+  "saved": {
+    "headline": "Saved",
+    "description": "All changes saved successfully"
+  },
+
+  "removed": {
+    "headline": "Removed",
+    "description": "User deleted successfully"
+  },
+
+  "restored": {
+    "headline": "Restored",
+    "description": "User successfully restored"
+  },
+
+  "createConfirm": {
+    "headline": "Attention",
+    "description": "Please save the new user's password. After closing the window, it will not be available."
+  },
+
+  "removeConfirm": {
+    "headline": "Delete user",
+    "description": "Are you sure you want to delete the user? After that, he will not be available in the public lists. He can be restored later."
+  },
+
+  "createPage": {
+    "headline": "Add user",
+    "subline": "Please fill in the required fields",
+    "serviceInfo": {
+      "headline": "Help",
+      "description": "After adding a user, you will be redirected to a card page for the newly created user."
+    }
+  },
+
+  "listPage": {
+    "headline": "List of users",
+    "subline": "Organization \"{{orgName}}\"",
+
+    "search": {
+      "placeholder": "Search by username",
+      "noResults": {
+        "headline": "Nothing found",
+        "description": "No results were found for the specified query. Please try changing your search parameters or clearing it."
+      }
+    }
+  },
+
+  "viewPage": {
+    "headline": "{{name}}",
+    "subline": "{{email}}"
+  },
+
+  "editPage": {
+    "headline": "Edit user",
+    "subline": "Please fill in the required fields",
+    "serviceInfo": {
+      "headline": "Service information"
+    }
+  },
+
+  "profilePage": {
+    "headline": "Profile",
+    "subline": "Edit your details"
+  }
+}

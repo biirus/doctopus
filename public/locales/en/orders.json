@@ -1,0 +1,88 @@
+{
+  "pickPatient": "Select Patient",
+  "pickAnalyses": "Select Analyses",
+  "pickServices": "Select Services",
+
+  "number": "Number",
+  "patient": "Patient",
+  "date": "Date",
+  "analyses": "Researches",
+  "services": "Services",
+  "organization": "Organization",
+
+  "confirmInfo": {
+    "headline": "Order confirmation",
+    "subline": "Summary order data"
+  },
+
+  "listInfo": {
+    "analyses": {
+      "headline": "Selected researches ({{count}})",
+      "empty": {
+        "headline": "Nothing selected",
+        "description": "Add researches from the list"
+      }
+    },
+    "services": {
+      "headline": "Selected services ({{count}})",
+      "empty": {
+        "headline": "Nothing selected",
+        "description": "Add services from the list"
+      }
+    }
+  },
+
+  "error": "Error",
+  "errors": {
+    "patientId": {
+      "required": "Select a patient"
+    },
+    "analyses": {
+      "required": "Add research"
+    },
+    "general": "Something went wrong, please try again later.",
+    "401": "Login required"
+  },
+
+  "saved": {
+    "headline": "Saved",
+    "description": "All changes saved successfully"
+  },
+
+  "removed": {
+    "headline": "Removed",
+    "description": "Order successfully deleted"
+  },
+
+  "restored": {
+    "headline": "Restored",
+    "description": "Order successfully restored"
+  },
+
+  "removeConfirm": {
+    "headline": "Delete order",
+    "description": "Are you sure you want to delete the order? After that, it will not be available in the public lists. It can also be restored."
+  },
+
+  "createPage": {
+    "headline": "Create order",
+    "subline": "Please fill in the required fields"
+  },
+
+  "editPage": {
+    "headline": "Edit order #{{num}}",
+    "subline": "Please fill in the required fields"
+  },
+
+  "listPage": {
+    "headline": "Order List",
+    "subline": "Organization \"{{orgName}}\"",
+    "search": {
+      "placeholder": "Search by order number",
+      "noResults": {
+        "headline": "Nothing found",
+        "description": "No results were found for the specified query. Please try changing your search parameters or clearing it."
+      }
+    }
+  }
+}

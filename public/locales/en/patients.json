@@ -1,0 +1,134 @@
+{
+  "number": "Card number",
+  "firstName": "Name",
+  "lastName": "Last name",
+  "middleName": "Patronymic",
+  "phone": "Phone",
+  "email": "Email",
+  "dateOfBirth": "Date of Birth",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "organizationTitle": "Organization",
+  "active": "Active",
+  "status": "Status",
+  "date": "Date",
+  "orderNumber": "Order number",
+
+  "hint": {
+    "number": "Organization-unique patient number",
+    "dateOfBirth": "Minimum date is \"01/01/1900\""
+  },
+
+  "generalInfo": {
+    "headline": "General Information",
+    "subline": "Patient data"
+  },
+
+  "genderinfo": {
+    "headline": "Gender",
+    "subline": "Enter the gender of the patient"
+  },
+
+  "contact info": {
+    "headline": "Contact Information",
+    "subline": "How can I contact the patient"
+  },
+
+  "error": "Error",
+  "errors": {
+    "number": {
+      "required": "Fill in the field \"$t(number)\""
+    },
+    "firstName": {
+      "required": "Fill in the field \"$t(firstName)\""
+    },
+    "lastName": {
+      "required": "Fill in the field \"$t(lastName)\""
+    },
+    "middleName": {
+      "required": "Fill in the field \"$t(middleName)\""
+    },
+    "dateOfBirth": {
+      "required": "Please fill in the \"$t(dateOfBirth)\" field correctly"
+    },
+
+    "email": {
+      "required": "Fill in the field \"$t(email)\"",
+      "email": "Invalid field format \"$t(email)\""
+    },
+    "phone": {
+      "required": "Fill in the field \"$t(phone)\"",
+      "phone": "Incorrect field \"$t(phone)\""
+    },
+    "gender": {
+      "required": "Specify user gender"
+    },
+
+    "general": "Something went wrong, please try again later.",
+    "401": "Login required",
+    "409": "This card number is not available. Please select another number."
+  },
+
+  "saved": {
+    "headline": "Saved",
+    "description": "All changes saved successfully"
+  },
+
+  "removed": {
+    "headline": "Removed",
+    "description": "Patient removed successfully"
+  },
+
+  "restored": {
+    "headline": "Restored",
+    "description": "Patient successfully recovered"
+  },
+
+  "removeConfirm": {
+    "headline": "Delete patient",
+    "description": "Are you sure you want to delete the patient? After that, he will not be available in the general lists. He can be restored later."
+  },
+
+  "createPage": {
+    "headline": "Add patient",
+    "subline": "Please fill in the required fields",
+    "serviceInfo": {
+      "headline": "Help",
+      "description": "After adding a patient, you will be redirected to the card page of the newly created patient."
+    }
+  },
+
+  "listPage": {
+    "headline": "Patient List",
+    "subline": "Organization \"{{orgName}}\"",
+
+    "search": {
+      "placeholder": "Search by patient name or its card number",
+      "noResults": {
+        "headline": "Nothing found",
+        "description": "No results were found for the specified query. Please try changing your search parameters or clearing it."
+      }
+    }
+  },
+
+  "viewPage": {
+    "headline": "{{name}}",
+    "subline": "{{email}}"
+  },
+
+  "editPage": {
+    "headline": "Edit Patient",
+    "subline": "Please fill in the required fields",
+    "serviceInfo": {
+      "headline": "Service information"
+    },
+    "ordersInfo": {
+      "headline": "Patient Orders",
+      "list": "View all",
+      "noOrders": {
+        "headline": "No orders"
+      }
+    }
+  }
+}

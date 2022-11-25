@@ -1,0 +1,5 @@
+{
+  "next": "Next",
+  "prev": "Previous",
+  "current": "Page <b>{{current}}</b> from <b>{{total}}</b>"
+}

@@ -1,0 +1,11 @@
+{
+  "headline": "News",
+  "subline": "What's new in the company and the world",
+
+  "attributes": {
+    "article": "Article",
+    "title": "Title",
+    "description": "Description",
+    "deadline": "Deadline"
+  }
+}

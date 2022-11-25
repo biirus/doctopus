@@ -1,0 +1,29 @@
+{
+  "headline": "Genetic research",
+  "subline": "Complete a survey to get a complete picture of your health",
+  "additional_info": "Additional info",
+
+  "attributes": {
+    "article": "Article",
+    "title": "Title",
+    "description": "Description",
+    "deadline": "Deadline",
+    "publishDate": "Update date",
+    "relatilPrice": "Price",
+    "group": "Group"
+  },
+
+  "business_days_one": "{{count}} business day",
+  "business_days_many": "{{count}} business days",
+
+  "order": "Order",
+  "example": "Example",
+
+  "search": {
+    "placeholder": "Search Research",
+    "noResults": {
+      "headline": "Nothing found",
+      "description": "No results were found for the specified query. Please try changing your search parameters or clearing it."
+    }
+  }
+}

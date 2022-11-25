@@ -1,0 +1,116 @@
+{
+  "title": "Title",
+  "description": "Description",
+  "email": "Email",
+  "phone": "Phone",
+  "contactPerson": "Contact Person",
+  "legalAddress": "Legal address",
+  "actualAddress": "Actual address",
+  "number": "Number in the system",
+  "status": "Status",
+  "active": "Active",
+
+  "generalInfo": {
+    "headline": "General Information",
+    "subline": "Organization details"
+  },
+
+  "contactsInfo": {
+    "headline": "Contact Information",
+    "subline": "How to contact the organization"
+  },
+
+  "addressInfo": {
+    "headline": "Addresses",
+    "subline": "Where the organization is located"
+  },
+
+  "error": "Error",
+  "errors": {
+    "title": {
+      "required": "Fill in the field \"$t(title)\""
+    },
+    "email": {
+      "required": "Fill in the field \"$t(email)\"",
+      "email": "Invalid field format \"$t(email)\""
+    },
+    "phone": {
+      "required": "Fill in the field \"$t(phone)\"",
+      "phone": "Incorrect field \"$t(phone)\""
+    },
+    "contactPerson": {
+      "required": "Fill in the field \"$t(contactPerson)\""
+    },
+    "legalAddress": {
+      "required": "Fill in the field \"$t(legalAddress)\""
+    },
+    "actualAddress": {
+      "required": "Fill in the field \"$t(actualAddress)\""
+    },
+    "general": "Something went wrong, please try again later.",
+    "401": "Login required"
+  },
+
+  "saved": {
+    "headline": "Saved",
+    "description": "All changes saved successfully"
+  },
+
+  "removed": {
+    "headline": "Removed",
+    "description": "Organization successfully deleted"
+  },
+
+  "restored": {
+    "headline": "Restored",
+    "description": "Organization successfully restored"
+  },
+
+  "removeConfirm": {
+    "headline": "Delete organization",
+    "description": "Are you sure you want to delete the organization? After that, it will not be available in the public lists. It can also be restored."
+  },
+
+  "createPage": {
+    "headline": "Add organization",
+    "subline": "Please fill in the required fields",
+    "serviceInfo": {
+      "headline": "Help",
+      "description": "After adding an organization, you will be redirected to a page with a card for the newly created organization. \n\n Some service fields will be created automatically. Information about them can be found on the organization card."
+    }
+  },
+
+  "editPage": {
+    "headline": "Change organization",
+    "subline": "Please fill in the required fields",
+    "serviceInfo": {
+      "headline": "Service data"
+    },
+    "usersInfo": {
+      "headline": "Org users",
+      "list": "View all",
+      "noUsers": {
+        "headline": "No users yet"
+      }
+    },
+    "patientsInfo": {
+      "headline": "Patients",
+      "list": "View all",
+      "noPatients": {
+        "headline": "No patients yet"
+      }
+    }
+  },
+
+  "listPage": {
+    "headline": "List of Organizations",
+    "subline": "All registered organizations are represented here",
+    "search": {
+      "placeholder": "Search by organization name or number",
+      "noResults": {
+        "headline": "Nothing found",
+        "description": "No results were found for the specified query. Please try changing your search parameters or clearing it."
+      }
+    }
+  }
+}

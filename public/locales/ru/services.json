@@ -1,0 +1,29 @@
+{
+  "headline": "Услуги",
+  "subline": "Пройдите исследование, чтобы получить полную картину вашего здоровья",
+  "additional_info": "Дополнительная информация",
+
+  "attributes": {
+    "article": "Артикул",
+    "title": "Название",
+    "description": "Описание",
+    "deadline": "Срок исполнения",
+    "publishDate": "Дата обновления",
+    "retailPrice": "Цена"
+  },
+
+  "business_days_one": "{{count}} рабочий день",
+  "business_days_few": "{{count}} рабочих дня",
+  "business_days_many": "{{count}} рабочих дней",
+
+  "order": "Заказать",
+  "example": "Пример",
+
+  "search": {
+    "placeholder": "Поиск услуг",
+    "noResults": {
+      "headline": "Ничего не найдено",
+      "description": "По указанному запросу не удалось ничего найти. Попробуйте изменить параметры поиска или очистите его."
+    }
+  }
+}
