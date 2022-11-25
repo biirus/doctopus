@@ -23,16 +23,7 @@ export const Footer: FC<FooterProps> = (props) => {
         <div className="my-4 flex flex-wrap gap-x-8 gap-y-4 text-blue-500">
           <div className="flex flex-1 flex-col gap-2">
             <a className="font-semibold hover:underline" href="#">
-              Каталог
-            </a>
-            <a className="hover:underline" href="#">
-              НИПТ
-            </a>
-            <a className="hover:underline" href="#">
-              ПГТ
-            </a>
-            <a className="hover:underline" href="#">
-              Исследования
+              Портфолио
             </a>
           </div>
 
@@ -40,29 +31,11 @@ export const Footer: FC<FooterProps> = (props) => {
             <a className="font-semibold hover:underline" href="#">
               О компании
             </a>
-            <a className="hover:underline" href="#">
-              Новости
-            </a>
-            <a className="hover:underline" href="#">
-              СМИ о нас
-            </a>
-            <a className="hover:underline" href="#">
-              Контакты
-            </a>
           </div>
 
           <div className="flex flex-1 flex-col gap-2">
             <a className="font-semibold hover:underline" href="#">
-              Поддержка
-            </a>
-            <a className="hover:underline" href="#">
-              Пациентам
-            </a>
-            <a className="hover:underline" href="#">
-              Клиникам
-            </a>
-            <a className="hover:underline" href="#">
-              Партнерам
+              Контакты
             </a>
           </div>
         </div>

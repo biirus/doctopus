@@ -8,13 +8,12 @@ import { ToastProvider } from 'contexts/ToastContext'
 import type { SSRConfig } from 'next-i18next'
 import type { AppProps } from 'next/app'
 import type { FC } from 'react'
-import type { PageProps } from 'lib/types'
 
-type Props<TPageProps> = AppProps<TPageProps> & {
+type Props = AppProps & {
   pageProps: SSRConfig
 }
 
-const App: FC<Props<PageProps>> = (props) => {
+const App: FC<Props> = (props) => {
   const { Component, pageProps } = props
 
   return (

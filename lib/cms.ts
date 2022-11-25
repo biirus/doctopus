@@ -1,6 +1,6 @@
 import qs from 'qs'
-import { Nullable } from './types'
 
+type Nullable<T> = T | null
 type AnyObject = Record<string, unknown>
 
 export type SEO = Partial<

@@ -1,4 +1,3 @@
-import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Head from 'next/head'
 import { FC, HTMLAttributes } from 'react'
@@ -6,11 +5,6 @@ import { FC, HTMLAttributes } from 'react'
 import { Logo } from 'components/Logo'
 import { Navigation } from 'components/Navigation'
 import { Footer } from 'components/Footer'
-
-const PreviewToggle = dynamic(
-  () => import('components/PreviewToggle').then((mod) => mod.PreviewToggle),
-  { ssr: false }
-)
 
 type Props = {
   center?: boolean
@@ -45,8 +39,6 @@ export const Layout: FC<Props> = ({ children, suppressHydrationWarning }) => {
                 </div>
 
                 <Navigation />
-
-                <PreviewToggle className="ml-auto" />
               </div>
             </div>
           </div>
