@@ -19,10 +19,17 @@ const App: FC<Props> = (props) => {
   return (
     <>
       <Head>
+        <meta charSet="utf-8" />
+        <meta name="theme-color" content="#0f172a" />
+        <meta name="apple-mobile-web-app-status-bar" content="#0f172a" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5"
         />
+
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
       </Head>
 
       <ToastProvider>

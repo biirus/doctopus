@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Head from 'next/head'
 import { FC, HTMLAttributes } from 'react'
 
 import { Logo } from 'components/Logo'
@@ -15,13 +14,6 @@ type Props = {
 export const Layout: FC<Props> = ({ children, suppressHydrationWarning }) => {
   return (
     <>
-      <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-        <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
-      </Head>
-
       <div
         suppressHydrationWarning={suppressHydrationWarning}
         className="grid min-h-full flex-1 grid-rows-[max-content,1fr,max-content] bg-slate-100"

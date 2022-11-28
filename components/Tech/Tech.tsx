@@ -98,8 +98,8 @@ export const Tech: FC<TechProps> = (props) => {
                 </TechIcon>
                 <TechIcon level={3}>
                   <Image
-                    src="/images/tech/tailwind.svg"
-                    alt="Tailwind"
+                    src="/images/tech/nodejs.svg"
+                    alt="NodeJS"
                     width={256}
                     height={256}
                   />

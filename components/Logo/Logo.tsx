@@ -13,7 +13,7 @@ export const Logo: FC<LogoProps> = (props) => {
         className="h-8 w-auto"
         width={32}
         height={32}
-        src="/images/logo.png"
+        src="/images/logo.svg"
         alt="Doctopus"
       />
 
