@@ -1,6 +1,8 @@
 import { Hero } from 'components/Hero'
 import { Layout } from 'components/Layout'
+import { LogoList } from 'components/LogoList'
 import { Seo } from 'components/Seo'
+import { Team } from 'components/Team'
 import { loadTranslations } from 'lib/load-translations'
 import { GetStaticProps } from 'next'
 import Image from 'next/image'
@@ -25,70 +27,15 @@ const IndexPage: FC = () => {
 
       <Hero />
 
-      <div className="container mx-auto my-16 lg:mt-20">
+      <div className="container mx-auto my-16 px-4 sm:px-6 lg:mt-20">
         <p className="text-center text-base font-bold text-slate-900">
           В нашей работе мы используем различные технологии
         </p>
-
-        <ul className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
-          <li>
-            <ul className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0">
-              <li>
-                <Image
-                  src="/images/tech/laravel.svg"
-                  alt="laravel"
-                  height={48}
-                  width={148}
-                />
-              </li>
-              <li>
-                <Image
-                  src="/images/tech/mirage.svg"
-                  alt="mirage"
-                  height={48}
-                  width={148}
-                />
-              </li>
-              <li>
-                <Image
-                  src="/images/tech/statamic.svg"
-                  alt="statamic"
-                  height={48}
-                  width={148}
-                />
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0">
-              <li>
-                <Image
-                  src="/images/tech/statickit.svg"
-                  alt="statickit"
-                  height={48}
-                  width={148}
-                />
-              </li>
-              <li>
-                <Image
-                  src="/images/tech/transistor.svg"
-                  alt="transistor"
-                  height={48}
-                  width={148}
-                />
-              </li>
-              <li>
-                <Image
-                  src="/images/tech/tuple.svg"
-                  alt="tuple"
-                  height={48}
-                  width={148}
-                />
-              </li>
-            </ul>
-          </li>
-        </ul>
       </div>
+
+      <LogoList className="my-8" />
+
+      <Team className="my-16 lg:mt-20" />
     </Layout>
   )
 }

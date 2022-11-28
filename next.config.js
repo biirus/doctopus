@@ -18,7 +18,7 @@ const config = {
       'tailwindui.com',
       'i.ytimg.com',
       'images.unsplash.com',
-      'cms.lqgen.ru',
+      'i.pravatar.cc',
     ],
     formats: ['image/avif', 'image/webp'],
     imageSizes: [64, 96, 128, 256, 384],

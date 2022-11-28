@@ -17,8 +17,8 @@ export const Hero: FC<HeroProps> = (props) => {
         style={{ backgroundImage: 'url(/images/pattern.svg)' }}
       />
 
-      <div className="container mx-auto px-4 py-16 text-white sm:px-6 lg:py-32">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
+      <div className="container relative mx-auto px-4 py-16 text-white sm:px-6 lg:py-32">
+        <div className="mx-auto grid grid-cols-1 items-center gap-y-16 gap-x-8 lg:grid-cols-2  xl:gap-x-16 ">
           <div>
             <h2 className="inline bg-gradient-to-r from-indigo-200 via-primary-400 to-indigo-200 bg-clip-text text-5xl font-semibold tracking-tight text-transparent">
               Лечение IT-проблем
