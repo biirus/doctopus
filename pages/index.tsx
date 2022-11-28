@@ -5,7 +5,6 @@ import { Seo } from 'components/Seo'
 import { Team } from 'components/Team'
 import { loadTranslations } from 'lib/load-translations'
 import { GetStaticProps } from 'next'
-import Image from 'next/image'
 import { FC } from 'react'
 
 export const getStaticProps: GetStaticProps = async (props) => {
