@@ -3,6 +3,7 @@ import { Layout } from 'components/Layout'
 import { LogoList } from 'components/LogoList'
 import { Seo } from 'components/Seo'
 import { Team } from 'components/Team'
+import { Tech } from 'components/Tech'
 import { loadTranslations } from 'lib/load-translations'
 import { GetStaticProps } from 'next'
 import { FC } from 'react'
@@ -33,8 +34,8 @@ const IndexPage: FC = () => {
       </div>
 
       <LogoList className="my-8" />
-
       <Team className="my-16 lg:mt-20" />
+      <Tech className="my-16 lg:mt-20" />
     </Layout>
   )
 }

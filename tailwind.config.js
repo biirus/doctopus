@@ -25,6 +25,20 @@ module.exports = {
         '8xl': '88rem',
         '9xl': '96rem',
       },
+      keyframes: {
+        'slide-ud': {
+          '0%, 100%': { transform: 'translateY(0%)' },
+          '50%': { transform: 'translateY(10px)' },
+        },
+        'slide-lr': {
+          '0%, 100%': { transform: 'translateX(0%)' },
+          '50%': { transform: 'translateX(10px)' },
+        },
+      },
+      animation: {
+        'slide-ud': 'slide-ud 3s ease-in-out infinite',
+        'slide-lr': 'slide-lr 3s ease-in-out infinite',
+      },
     },
   },
   plugins: [
