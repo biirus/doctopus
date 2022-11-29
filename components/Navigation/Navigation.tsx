@@ -30,7 +30,7 @@ export const Navigation: FC<NavigationProps> = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             initial={{ opacity: 0 }}
-            className="fixed inset-0 bg-slate-600/70 md:hidden"
+            className="fixed inset-0 bg-slate-600/70 backdrop-blur-sm md:hidden"
             onClick={toggle}
           />
         )}
@@ -51,14 +51,11 @@ export const Navigation: FC<NavigationProps> = () => {
           closed: { opacity: 0, x: '-100%' },
         }}
         transition={{
-          type: 'spring',
-          damping: 50,
-          duration: 0.1,
-          stiffness: 1000,
+          type: 'just',
         }}
         initial={false}
         animate={open ? 'open' : 'closed'}
-        className="fixed left-0 top-0 z-10 h-screen w-full max-w-xs bg-slate-900 p-4 shadow md:relative md:ml-10 md:block md:h-auto md:max-w-none md:!transform-none md:bg-transparent md:p-0 md:!opacity-100 md:shadow-none"
+        className="fixed left-0 top-0 z-10 h-screen w-full max-w-xs bg-slate-900 p-4 shadow-2xl md:relative md:ml-10 md:block md:h-auto md:max-w-none md:!transform-none md:bg-transparent md:p-0 md:!opacity-100 md:shadow-none"
       >
         <div className="mb-4 flex justify-between md:hidden">
           <Logo className="text-white" />

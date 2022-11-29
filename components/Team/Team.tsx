@@ -7,7 +7,7 @@ type TeamProps = HTMLAttributes<HTMLDivElement>
 export const Team: FC<TeamProps> = (props) => {
   return (
     <div className={clsx(props.className)}>
-      <div className="bg-gradient-to-l from-slate-900 via-slate-900 to-primary-900 pt-16 pb-24 text-white  lg:pt-32 lg:pb-48">
+      <div className="bg-gradient-to-b from-slate-900 via-slate-900 to-primary-900 pt-16 pb-24 text-white md:bg-gradient-to-l  lg:pt-32 lg:pb-48">
         <h2 className="container mx-auto px-4 text-5xl font-semibold tracking-tight text-white sm:px-6">
           Наша команда
         </h2>

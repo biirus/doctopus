@@ -12,8 +12,8 @@ export const Testimonial: FC<TestimonialProps> = (props) => {
         props.className
       )}
     >
-      <div className="container mx-auto grid grid-cols-4  gap-8 px-4 text-white sm:px-6 lg:gap-16">
-        <div className="relative col-span-4 -my-16 aspect-[8/13] overflow-hidden rounded-2xl bg-white text-black shadow-lg sm:col-span-2 md:-my-8 xl:col-span-1">
+      <div className="container mx-auto grid grid-cols-4 gap-0 px-4 text-white sm:px-6 md:gap-8 lg:gap-16">
+        <div className="relative col-span-4  -mt-8 aspect-[8/13] overflow-hidden rounded-2xl bg-white text-black shadow-lg sm:col-span-2 md:-my-16 xl:col-span-1">
           <Image
             src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=512&q=80"
             alt="person"
@@ -21,11 +21,11 @@ export const Testimonial: FC<TestimonialProps> = (props) => {
           />
         </div>
 
-        <div className="col-span-4 py-8 sm:col-span-2 md:py-16 xl:col-span-3">
+        <div className="col-span-4 py-8 sm:col-span-2  xl:col-span-3">
           <div className="max-w-prose text-lg sm:text-xl lg:text-2xl">
             <figure>
               <svg
-                className="mb-3 h-10 w-20 text-white/30 md:mb-6 md:h-14 md:w-14 lg:h-20 lg:w-20"
+                className="mb-3 h-10 w-10 text-white/30 md:mb-6 md:h-14 md:w-14"
                 viewBox="0 0 512.5 512.5"
               >
                 <path
@@ -40,7 +40,7 @@ export const Testimonial: FC<TestimonialProps> = (props) => {
                 iste! Ducimus nam qui deleniti distinctio fuga?
               </blockquote>
 
-              <figcaption className="mt-6 md:mt-12">
+              <figcaption className="mt-6">
                 —Aldous Huxley, <cite>Brave New World</cite>
               </figcaption>
             </figure>

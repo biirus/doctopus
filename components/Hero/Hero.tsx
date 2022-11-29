@@ -8,7 +8,7 @@ export const Hero: FC<HeroProps> = (props) => {
   return (
     <div
       className={clsx(
-        'relative bg-gradient-to-r from-slate-900 via-slate-900 to-primary-900',
+        'relative bg-gradient-to-b from-slate-900 via-slate-900 to-primary-900 md:bg-gradient-to-r',
         props.className
       )}
     >
