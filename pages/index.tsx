@@ -1,5 +1,6 @@
 import { Hero } from 'components/Hero'
 import { Layout } from 'components/Layout'
+import { LifeCycle } from 'components/LifeCycle'
 import { LogoList } from 'components/LogoList'
 import { Seo } from 'components/Seo'
 import { Team } from 'components/Team'
@@ -38,6 +39,7 @@ const IndexPage: FC = () => {
       <Team className="my-16 lg:mt-20" />
       <Tech className="my-16 lg:mt-20" />
       <Testimonial className="my-16 lg:mt-20" />
+      <LifeCycle className="my-16 md:pt-20 lg:mt-20" />
     </Layout>
   )
 }

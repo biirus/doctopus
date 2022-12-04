@@ -10,12 +10,12 @@ export const Tech: FC<TechProps> = (props) => {
   return (
     <div className={clsx('relative ', props.className)}>
       <div className="container relative mx-auto px-4 py-16 text-slate-900 sm:px-6 lg:py-32">
-        <div className="mx-auto grid grid-cols-1 items-center gap-y-16 gap-x-8 lg:grid-cols-2  xl:gap-x-16 ">
+        <div className="mx-auto grid grid-cols-1 items-center gap-y-16 gap-x-8 lg:grid-cols-2  xl:gap-x-16">
           <div>
-            <h2 className="container mx-auto px-4 text-5xl font-semibold tracking-tight text-slate-900 sm:px-6">
+            <h2 className="text-5xl font-semibold tracking-tight text-slate-900">
               Лучшие технологии
             </h2>
-            <div className="container mx-auto mt-3 px-4 text-2xl tracking-tight text-slate-600 sm:px-6">
+            <div className="mt-3 text-2xl tracking-tight text-slate-600">
               <p className="max-w-prose">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
                 dolor suscipit sequi facilis soluta culpa quisquam harum nihil,
