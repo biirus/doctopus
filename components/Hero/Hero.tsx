@@ -23,7 +23,7 @@ export const Hero: FC<HeroProps> = (props) => {
             <h2 className="inline bg-gradient-to-r from-indigo-200 via-primary-400 to-indigo-200 bg-clip-text text-5xl font-semibold tracking-tight text-transparent">
               Лечение IT-проблем
             </h2>
-            <p className="mt-3 text-2xl tracking-tight text-slate-400">
+            <p className="mt-3 text-2xl text-slate-400">
               Мы разрабатываем решения на основе лучших мировых практик
             </p>
 

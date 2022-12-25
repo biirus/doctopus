@@ -21,7 +21,7 @@ export const LifeCycle: FC<LifeCycleProps> = (props) => {
             <h2 className="text-5xl font-semibold tracking-tight text-slate-900">
               Как мы работаем
             </h2>
-            <div className="mt-3 text-2xl tracking-tight text-slate-600">
+            <div className="mt-3 text-2xl text-slate-600">
               <p className="max-w-prose">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
                 dolor suscipit sequi facilis soluta culpa quisquam.
@@ -29,8 +29,11 @@ export const LifeCycle: FC<LifeCycleProps> = (props) => {
             </div>
           </div>
 
-          <div className="relative">
-            <span className="absolute inset-y-0 left-2 w-1 rounded bg-slate-200" />
+          <div className="relative py-10">
+            <div className="absolute inset-y-0 left-2  w-1 rounded bg-slate-200" />
+            <div className="absolute inset-x-0 top-0  h-10 bg-gradient-to-b from-slate-100 via-slate-100 to-transparent" />
+            <div className="absolute inset-x-0 bottom-0  h-10 bg-gradient-to-t from-slate-100 via-slate-100 to-transparent" />
+
             <div className="space-y-6 lg:space-y-8">
               <Item
                 level={0}

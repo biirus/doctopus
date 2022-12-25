@@ -27,6 +27,7 @@ export const Layout: FC<Props> = ({ children, suppressHydrationWarning }) => {
                 </a>
               </Link>
             </div>
+
             <Navigation />
 
             <div className="flex-none text-white md:hidden">

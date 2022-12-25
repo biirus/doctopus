@@ -15,7 +15,7 @@ export const Tech: FC<TechProps> = (props) => {
             <h2 className="text-5xl font-semibold tracking-tight text-slate-900">
               Лучшие технологии
             </h2>
-            <div className="mt-3 text-2xl tracking-tight text-slate-600">
+            <div className="mt-3 text-2xl text-slate-600">
               <p className="max-w-prose">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
                 dolor suscipit sequi facilis soluta culpa quisquam harum nihil,

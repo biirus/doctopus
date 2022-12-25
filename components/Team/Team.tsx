@@ -11,7 +11,7 @@ export const Team: FC<TeamProps> = (props) => {
         <h2 className="container mx-auto px-4 text-5xl font-semibold tracking-tight text-white sm:px-6">
           Наша команда
         </h2>
-        <div className="container mx-auto mt-3 px-4 text-2xl tracking-tight text-slate-400 sm:px-6">
+        <div className="container mx-auto mt-3 px-4 text-2xl text-slate-400 sm:px-6">
           <p className="max-w-prose">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
             dolor suscipit sequi facilis soluta culpa quisquam harum nihil,

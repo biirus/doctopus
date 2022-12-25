@@ -2,6 +2,7 @@ import { Hero } from 'components/Hero'
 import { Layout } from 'components/Layout'
 import { LifeCycle } from 'components/LifeCycle'
 import { LogoList } from 'components/LogoList'
+import { Portfolio } from 'components/Portfolio'
 import { Seo } from 'components/Seo'
 import { Team } from 'components/Team'
 import { Tech } from 'components/Tech'
@@ -26,16 +27,14 @@ const IndexPage: FC = () => {
   return (
     <Layout>
       <Seo data={undefined} />
-
       <Hero />
-
       <div className="container mx-auto my-16 px-4 sm:px-6 lg:mt-20">
         <p className="text-center text-base font-bold text-slate-900">
           В нашей работе мы используем различные технологии
         </p>
       </div>
-
       <LogoList className="my-8" />
+      <Portfolio className="my-16 lg:mt-20" />
       <Team className="my-16 lg:mt-20" />
       <Tech className="my-16 lg:mt-20" />
       <Testimonial className="my-16 lg:mt-20" />
