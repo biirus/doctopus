@@ -79,6 +79,7 @@ export const Card: FC<CardProps> = (props) => {
           }}
         />
       </div>
+
       {props.children}
     </div>
   )

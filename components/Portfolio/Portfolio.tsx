@@ -63,7 +63,7 @@ export const Portfolio: FC<PortfolioProps> = (props) => {
                   className="h-full"
                   imgSrc={`/images/portfolio/${company}.webp`}
                 >
-                  <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-b from-transparent to-slate-300 px-4 py-6 text-center backdrop-blur-sm">
+                  <div className="pointer-events-none absolute inset-x-0 bottom-0 rounded-b-2xl bg-gradient-to-b from-transparent to-slate-300 px-4 py-6 text-center backdrop-blur-sm">
                     <div className="mb-1 font-semibold uppercase tracking-wider text-primary-900">
                       {title[company]}
                     </div>
